@@ -53,4 +53,4 @@ if st.button("Predict"):
     else:
         st.success(f"✅ Low risk of Heart Disease\n\nRisk Probability: {risk_prob:.2%}")
 
-st.progress(risk_prob)
+        st.progress(risk_prob)
